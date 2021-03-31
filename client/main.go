@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	// .protoから生成されたコードをimportしている
 	// 今回は筆者の$GOPATH内に作成したので適宜プロジェクトを作成したパスに合わせる
-	pb "github.com/BIwashi/gRPC-go/hello_grpc/hellogrpc"
+	pb "github.com/BIwashi/gRPC-go/hellogrpc/hellogrpc"
 )
 
 const (

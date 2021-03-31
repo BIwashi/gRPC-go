@@ -1,9 +1,9 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "io.tokikokoko.hellogrpc.server";
+option java_package = "io.BIwashi.hellogrpc.server";
 option java_outer_classname = "HelloGrpc";
-option go_package = "./";
+option go_package = "github.com/BIwashi/gRPC-go";
 
 package HelloGrpc;
 
